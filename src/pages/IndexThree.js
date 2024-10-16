@@ -11,12 +11,12 @@ import FooterThree from "../section/footer/FooterThree"
 const IndexThree = (props) =>{
     return(
         <div className="nk-main">
-            <BannerThree className="has-header-main-s1 bg-dark next-overlap-3x" id="#home" />
+            <BannerThree className="has-header-main-s1 next-overlap-3x" id="#home" />
             <ServiceThree className="section-service py-0" id="#service"/>
             <FeatureTwoAlt className="section-feature pb-0" id="#about"/>
-            <FactsOne className="section-facts bg-grad-a has-ovm" id="#reviews"/>
-            <ReviewOne className="section-review bg-lighter" id="#testimonial"/>
-            <FooterThree className=" bg-dark is-dark section section-sm" id="#footer" />
+            <FactsOne className="section-facts" id="#blog"/>
+            <ReviewOne className="section-review " id="#testimonial"/>
+            <FooterThree className=" foot is-dark section section-sm" id="#footer" />
         </div>
     )
 }

@@ -4,6 +4,38 @@ $dark-body-bg: $darker !default;
 $dark-card-bg: darken($dark, 6%) !default;
 $dark-border-color: lighten($darker, 8%) !default;
 
+.blog-des{
+    border: 1px solid #085864;
+    padding: 20px;
+    border-radius: 10px;
+    img{
+        height: 200px;
+        width: 100%;
+        margin-bottom: 10px;
+        object-position: center;
+        border-radius: 10px 10px 0 0;
+        object-fit: cover;
+    }
+    p{
+        color: #000;
+    }
+
+     h4{
+        color: #085864;
+    }
+    button{
+        background: #085864;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        padding: 7px 15px;
+        color: white;
+        font-size: 13px;
+    }
+}
+.foot{
+    background: #085864;
+}
 .nk-sticky-toolbar{
     position: fixed;
     border: 3px solid $white;
@@ -269,7 +301,7 @@ $dark-border-color: lighten($darker, 8%) !default;
                     background: $lighter !important;
                 }
                 &.bg-dark {
-                    background: $darker !important;
+                    background: #085864 !important;
                 }
                 &.theme-light {
                     background: linear-gradient(90deg, $lighter 0%, $lighter 50%, $light 50%, $light 100%) !important;

@@ -14,7 +14,7 @@
         align-items: center;
         font-weight: $fw-normal;
         font-size: 1rem;
-        color: $base-color;
+        color: #000 !important;
         padding: $menu-item-gap-y $menu-item-gap-x;
         transition: all ease-in 0.3s;
         .has-sub > &{
@@ -28,7 +28,7 @@
             }
         }
         &:hover, .active > &,&.active{
-            color: $primary;
+            color: #085864 !important;
         }
         .active > &{
             &:after{

@@ -1,51 +1,64 @@
 import React from "react"
-import { Container, Row, Col, Card } from "reactstrap"
-import { Paragraph, TextBlock, TitleH2 } from "../../components/textBlock/TextBlock"
-import { Ovm } from "../../layout/ovm/Ovm"
+import { Container, Row, Col } from "reactstrap"
+import { TextBlock, TitleH3 } from "../../components/textBlock/TextBlock"
 import { Section } from "../../layout/section/Section"
+import ThumbImg1 from '../../images/bg/pexels-googledeepmind-18069423.jpg'
+import ThumbImg2 from '../../images/bg/pexels-googledeepmind-18069495.jpg'
+import ThumbImg3 from '../../images/bg/pexels-polina-tankilevitch-4723293.jpg'
+import ThumbImg4 from '../../images/bg/unnamed.png'
 
-const FactsOne = (props) =>{
-    return(
-        <Section className={props.className && props.className} id={props.id && props.id}>
-            <Container>
-                <Row className="g-gs align-items-center">
-                    <Col lg="5">
-                        <TextBlock className="is-dark pe-xl-5">
-                            <TitleH2>Our Mission</TitleH2>
-                            <Paragraph className="lead">To provide innovative and customized digital solutions that empower small and medium-sized enterprises (SMEs) to achieve operational excellence and enhance their competitive edge in the marketplace.</Paragraph>
-                        </TextBlock>
-                    </Col>
-                    <Col lg="7">
-                        <Row className="justify-center text-center g-gs">
-                            <Col sm="4" xs="6">
-                                <Card className="card-full round-xl">
-                                    <div className="card-inner card-inner-md">
-                                        <div className="h1 fw-bold text-purple">7 +</div>
-                                        <div className="h6 text-base">Years<br/> in business</div>
-                                    </div>
-                                </Card>
-                            </Col> 
-                            <Col sm="4" xs="6">
-                                <Card className="card-full round-xl">
-                                    <div className="card-inner card-inner-md">
-                                        <div className="h1 fw-bold text-success">6 +</div>
-                                        <div className="h6 text-base">Analytics <br/> Concept</div>
-                                    </div>
-                                </Card>
-                            </Col>
-                            <Col sm="4" xs="6">
-                                <Card className="card-full round-xl">
-                                    <div className="card-inner card-inner-md">
-                                        <div className="h1 fw-bold text-pink">28 +</div>
-                                        <div className="h6 text-base">Business <br/> Promoted</div>
-                                    </div>
-                                </Card>
-                            </Col>
-                        </Row>
-                    </Col>
-                </Row>
-            </Container>
-            <Ovm className="shape-b shape-cover" />
+
+const FactsOne = (props) => {
+    return (
+        <Section className={props.className && props.className} id={props.id && props.id} style={{ background: "#EEFFDF" }}>
+            <div className="py-5" style={{ background: "#EEFFDF" }}>
+                <Container>
+                <TitleH3>Blog Articles </TitleH3>
+                <div className="m-5"></div>
+                    <Row className=" align-items-center">
+                        <Col lg="5">
+                            <TextBlock className="is-dark pe-xl-5">
+                                <div className="blog-des mb-3">
+                                    <img src={ThumbImg1} alt="" />
+                                    <h4>The Role of AI in Enhancing Employee Well-Being</h4>
+                                    <p >Artificial Intelligence is transforming the landscape of corporate wellness, offering innovative solutions to enhance employee well-being.</p>
+                                    <button>Read more</button>
+                                </div>
+                            </TextBlock>
+                        </Col>
+                        <Col lg="5">
+                            <TextBlock className="is-dark pe-xl-5">
+                                <div className="blog-des mb-3">
+                                    <img src={ThumbImg2} alt="" />
+                                    <h4>Creating a Culture of Wellness: Best Practices for Organizations</h4>
+                                    <p >A strong culture of wellness is essential for employee satisfaction and organizational success. Here are best practices to cultivate this culture.</p>
+                                    <button>Read more</button>
+                                </div>
+                            </TextBlock>
+                        </Col>
+                        <Col lg="5">
+                            <TextBlock className="is-dark pe-xl-5">
+                                <div className="blog-des mb-3">
+                                    <img src={ThumbImg3} alt="" />
+                                    <h4> Understanding Burnout: Signs, Symptoms, and Solutions</h4>
+                                    <p >Burnout is a significant challenge in today’s fast-paced work environment. Understanding its signs and symptoms is the first step toward prevention and recovery.</p>
+                                    <button>Read more</button>
+                                </div>
+                            </TextBlock>
+                        </Col>
+                        <Col lg="5">
+                            <TextBlock className="is-dark pe-xl-5">
+                                <div className="blog-des mb-3">
+                                    <img src={ThumbImg4} alt="" />
+                                    <h4>Easy Pathway to US Citizenship for Footballers and Athletes (EB1/EB2)</h4>
+                                    <p >Burnout is a significant challenge in today’s fast-paced work environment. Understanding its signs and symptoms is the first step toward prevention and recovery.</p>
+                                    <a href="https://docs.google.com/document/u/0/d/1mpXWaKQIj57Tgjsbzif-gA3qUn45QNVMSK8a_VtXEGg/mobilebasic" target="blank"><button>Read more</button></a>
+                                </div>
+                            </TextBlock>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
         </Section>
     )
 }

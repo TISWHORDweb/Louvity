@@ -12,12 +12,8 @@ const BannerOneData = [
         to:'#about'
     },
     {
-        text:'Reviews',
-        to:'#reviews'
-    },
-    {
-        text:'Features',
-        to:'#feature'
+        text:'Blog',
+        to:'#blog'
     },
     {
         text:'Testimonial',

@@ -12,7 +12,7 @@ $light-200: #e5e9f2;
 $light-300: #dbdfea; 
 $light-400: #b7c2d0; 
 $light-500: #8091a7; 
-$light-600: #3c4d62;
+$light-600: #085864;
 $light-700: #344357;
 $light-800: #2b3748;
 $light-900: #1f2b3a;
@@ -20,7 +20,7 @@ $light-900: #1f2b3a;
 $lighter:	#f5f6fa; 
 $light:		$light-100;
 $dark:		$light-900;
-$darker:	#101924;
+$darker:	#085864;
 
 
 $red: 		#e85347;
@@ -122,7 +122,7 @@ $extend-colors: (
 $bg-light:			$light-100;
 $bg-light-alt:		$light-300;
 
-$bg-dark:			$light-600;
+$bg-dark:			#085864;
 $bg-dark-alt:		$light-800;
 
 $border-light:		$light-200;

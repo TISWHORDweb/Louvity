@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import HeaderImg from '../../images/header/new.jpg'
 import Menu from '../../layout/menu/Menu'
 import MobileMenu from '../../layout/menu/MobileMenu'
-import {Logo} from "../../components/logo/Logo"
 import { Col, Container, Row, Badge } from "reactstrap"
 import {Header, HeaderContent, HeaderMain, HeaderWrap} from "../../layout/header/Header"
 import {Link} from "../../components/button/Button"
@@ -43,7 +42,7 @@ const BannerThree = (props) =>{
                 <Container className='header-container'>
                     <HeaderWrap>
                         <div className="header-logo">
-                            <h4 className='' style={{color:"rgb(101, 118, 255)"}}>IJAO VENTURE</h4>
+                            <h4 className='' style={{color:"#085864"}}>Louvity LLC</h4>
                         </div>
                         <div className="header-toggle" onClick={() => setToggle(!toggle)}>
                             <button className={`menu-toggler ${toggle === true ? "active" : ""}`}> 
@@ -54,9 +53,9 @@ const BannerThree = (props) =>{
                         <nav className={`header-menu menu ${toggle === true ? "active" : ""} ${mobileView ? "mobile-menu" : ""}`}> 
                             {!mobileView ? <Menu className="ms-lg-auto" data={BannerOneData} /> : <MobileMenu data={BannerOneData}/>}
                             <ul className="menu-btns">
-                                <li>
+                                {/* <li>
                                     <Link to="/" target="_blank" rel="noreferrer" className="btn-primary btn-lg">Get Started</Link>
-                                </li>
+                                </li> */}
                             </ul>
                         </nav>
                         {toggle && window.innerWidth < 992 && <div className="header-overlay" onClick={() => setToggle(!toggle)}></div>}
@@ -67,7 +66,7 @@ const BannerThree = (props) =>{
                 <Container>
                     <Row className='flex-row-reverse align-items-center justify-content-between g-gs'>
                         <Col lg="5" className='mb-n3 mb-lg-0'>
-                            <HeaderImage className="header-image-s2">
+                            <HeaderImage className="header-image-s3">
                                 <img src={HeaderImg} alt="header-img" />
                             </HeaderImage>
                         </Col>
@@ -75,16 +74,16 @@ const BannerThree = (props) =>{
                             <HeaderCaption>
                                 <HeaderBadge>
                                     <div className="badge-pro">
-                                        <Badge pill color="danger">NEW</Badge> <span className="badge-pro-text">Advanced technological management</span>
+                                        <Badge pill color="danger">NEW</Badge> <span className="badge-pro-text">Using AI and predictive analytics to improve corporate wellness</span>
                                     </div>
                                 </HeaderBadge>
-                                <HeaderTitle> Empowering SMEs with Tailored Digital Solutions</HeaderTitle>
+                                <HeaderTitle>Transforming Corporate Wellness with AIDriven Insights</HeaderTitle>
                                 <HeaderText className="pe-5">
-                                   <p>At IJAO Business Venture, we empower small and medium-sized enterprises (SMEs) to thrive in the digital landscape through customized, innovative technological solutions designed to meet their unique needs.</p>
+                                   <p>To revolutionize corporate wellness by leveraging AI-driven predictive analytics to prevent burnout, enhance employee well-being, and empower organizations with actionable insights for a healthier, more productive workforce.</p>
                                 </HeaderText>
                                 <ul className="header-action btns-inline">
                                     <li>
-                                        <Link to="/" className="btn-danger btn-round btn-lg"><span>Discover Our Solutions</span></Link>
+                                        <Link to="/" className="m-0" ><span className='btn-round btn-lg px-3 py-2 m-0' style={{background:"#085864",color:"white"}}>Get a Free Wellness Assessment</span></Link>
                                     </li>
                                 </ul>
                             </HeaderCaption>
