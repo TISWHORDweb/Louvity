@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.ac5ad4a5.css",
-    "main.js": "/static/js/main.5002cada.js",
-    "static/js/787.a071e51e.chunk.js": "/static/js/787.a071e51e.chunk.js",
-    "static/media/image.jpg": "/static/media/image.5944e4a3c23f4c9bf514.jpg",
+    "main.js": "/static/js/main.a76848dd.js",
+    "static/js/787.b518f0d8.chunk.js": "/static/js/787.b518f0d8.chunk.js",
     "static/media/Nioicon.svg": "/static/media/Nioicon.d007f9db7f24785f8b0e.svg",
     "static/media/new.jpg": "/static/media/new.2f63d1f8c6dff7fb17ca.jpg",
     "static/media/unnamed.png": "/static/media/unnamed.6275b72dc2cd6ef37d04.png",
     "static/media/pexels-googledeepmind-18069423.jpg": "/static/media/pexels-googledeepmind-18069423.e655233a552c9f599fa1.jpg",
+    "static/media/onyeka.jpg": "/static/media/onyeka.28e231650e48cdedf6ef.jpg",
     "static/media/pexels-polina-tankilevitch-4723293.jpg": "/static/media/pexels-polina-tankilevitch-4723293.5bebe8e94f0a7dacfe9e.jpg",
     "static/media/a.jpg": "/static/media/a.8e82d48b870add153b55.jpg",
     "static/media/pexels-googledeepmind-18069495.jpg": "/static/media/pexels-googledeepmind-18069495.a092ded59fe4e6462613.jpg",
@@ -48,11 +48,11 @@
     "static/media/mask-b.svg": "/static/media/mask-b.aca1078c07acf77fca93.svg",
     "static/media/mask-a.svg": "/static/media/mask-a.f240d297eae412239af2.svg",
     "main.ac5ad4a5.css.map": "/static/css/main.ac5ad4a5.css.map",
-    "main.5002cada.js.map": "/static/js/main.5002cada.js.map",
-    "787.a071e51e.chunk.js.map": "/static/js/787.a071e51e.chunk.js.map"
+    "main.a76848dd.js.map": "/static/js/main.a76848dd.js.map",
+    "787.b518f0d8.chunk.js.map": "/static/js/787.b518f0d8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ac5ad4a5.css",
-    "static/js/main.5002cada.js"
+    "static/js/main.a76848dd.js"
   ]
 }
