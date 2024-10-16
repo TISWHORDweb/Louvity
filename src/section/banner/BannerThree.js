@@ -42,7 +42,7 @@ const BannerThree = (props) =>{
                 <Container className='header-container'>
                     <HeaderWrap>
                         <div className="header-logo">
-                            <h4 className='' style={{color:"#085864"}}>Louvity LLC</h4>
+                            <h4 className='' style={{color:"#085864"}}>Louvity</h4>
                         </div>
                         <div className="header-toggle" onClick={() => setToggle(!toggle)}>
                             <button className={`menu-toggler ${toggle === true ? "active" : ""}`}> 

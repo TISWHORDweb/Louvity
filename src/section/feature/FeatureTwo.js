@@ -20,7 +20,7 @@ const FeatureTwoAlt = (props) => {
                     <Col lg="7">
                         <TextBlock>
                             <TitleH3>About Us</TitleH3>
-                            <p><b>Onyeka Omose</b> is the visionary founder of Louvity LLC, bringing a wealth of expertise in Human Resource Management, employee wellness, and organizational development. With a Master’s degree in Strategic Human Resources from the University of Denver and extensive experience across diverse industries, Onyeka is passionate about transforming how companies address corporate burnout and employee well-being. Her leadership at Louvity LLC leverages AI-driven predictive analytics to create innovative solutions for improving employee engagement, retention, and overall workplace satisfaction.</p>
+                            <p><b>Onyeka Omose</b> is the visionary founder of Louvity, bringing a wealth of expertise in Human Resource Management, employee wellness, and organizational development. With a Master’s degree in Strategic Human Resources from the University of Denver and extensive experience across diverse industries, Onyeka is passionate about transforming how companies address corporate burnout and employee well-being. Her leadership at Louvity LLC leverages AI-driven predictive analytics to create innovative solutions for improving employee engagement, retention, and overall workplace satisfaction.</p>
                         </TextBlock>
                     </Col>
                 </Row>

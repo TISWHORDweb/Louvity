@@ -46,16 +46,6 @@ const FactsOne = (props) => {
                                 </div>
                             </TextBlock>
                         </Col>
-                        <Col lg="5">
-                            <TextBlock className="is-dark pe-xl-5">
-                                <div className="blog-des mb-3">
-                                    <img src={ThumbImg4} alt="" />
-                                    <h4>Easy Pathway to US Citizenship for Footballers and Athletes (EB1/EB2)</h4>
-                                    <p >Burnout is a significant challenge in today’s fast-paced work environment. Understanding its signs and symptoms is the first step toward prevention and recovery.</p>
-                                    <a href="https://docs.google.com/document/u/0/d/1mpXWaKQIj57Tgjsbzif-gA3qUn45QNVMSK8a_VtXEGg/mobilebasic" target="blank"><button>Read more</button></a>
-                                </div>
-                            </TextBlock>
-                        </Col>
                     </Row>
                 </Container>
             </div>
