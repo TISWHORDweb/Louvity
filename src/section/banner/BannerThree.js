@@ -7,6 +7,7 @@ import {Header, HeaderContent, HeaderMain, HeaderWrap} from "../../layout/header
 import {Link} from "../../components/button/Button"
 import { HeaderBadge, HeaderCaption, HeaderText, HeaderTitle } from '../../components/headerCaption/HeaderCaption'
 import { HeaderImage } from '../../components/images/Images'
+import Logo from '../../images/logo.jpg'
 import {BannerOneData} from './BannerData'
 
 const BannerThree = (props) =>{
@@ -42,7 +43,7 @@ const BannerThree = (props) =>{
                 <Container className='header-container'>
                     <HeaderWrap>
                         <div className="header-logo">
-                            <h4 className='' style={{color:"#085864"}}>Louvity</h4>
+                            <img src={Logo} alt="" />
                         </div>
                         <div className="header-toggle" onClick={() => setToggle(!toggle)}>
                             <button className={`menu-toggler ${toggle === true ? "active" : ""}`}> 

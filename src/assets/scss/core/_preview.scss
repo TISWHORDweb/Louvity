@@ -36,6 +36,9 @@ $dark-border-color: lighten($darker, 8%) !default;
 .foot{
     background: #085864;
 }
+.header-logo{
+    width: 150px !important;
+}
 .nk-sticky-toolbar{
     position: fixed;
     border: 3px solid $white;
