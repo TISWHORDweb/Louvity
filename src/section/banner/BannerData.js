@@ -12,6 +12,10 @@ const BannerOneData = [
         to:'#about'
     },
     {
+        text:'Statistics',
+        to:'#statistic'
+    },
+    {
         text:'Blog',
         to:'#blog'
     },

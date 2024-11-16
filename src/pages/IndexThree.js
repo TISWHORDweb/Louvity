@@ -5,6 +5,7 @@ import ReviewOne from "../section/review/ReviewOne"
 import { FeatureTwoAlt } from "../section/feature/FeatureTwo"
 import FactsOne from "../section/facts/FactsOne"
 import FooterThree from "../section/footer/FooterThree"
+import Statistic from "../section/review/Statistic"
 
 
 
@@ -14,6 +15,7 @@ const IndexThree = (props) =>{
             <BannerThree className="has-header-main-s1 next-overlap-3x" id="#home" />
             <ServiceThree className="section-service py-0" id="#service"/>
             <FeatureTwoAlt className="section-feature pb-0" id="#about"/>
+            <Statistic className=" " id="#statistic"/>
             <FactsOne className="section-facts" id="#blog"/>
             <ReviewOne className="section-review " id="#testimonial"/>
             <FooterThree className=" foot is-dark section section-sm" id="#footer" />
